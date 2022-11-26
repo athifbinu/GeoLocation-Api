@@ -1,7 +1,9 @@
 import React from 'react'
 
 
-const Seassion = () => {
+const Seassion = (props) => {
+
+  console.log(props.lat)
   return (
     <div>
       <h2>display</h2>
